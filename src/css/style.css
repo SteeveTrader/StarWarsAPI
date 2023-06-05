@@ -1,0 +1,64 @@
+body {
+    background: url(../img/bg.jpeg);
+    margin: o auto;
+}
+.films {
+    padding: 40px;
+    max-width: 750px;
+}
+
+p,
+ul {
+    padding: 20px 40px 20px 40px;
+}
+
+.films__title {
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px #FFE81F;
+    font-size: 50px;
+    line-height: 24px;
+    color: transparent;
+    padding: 30px 0 30px;
+}
+.films__episodes-text,
+.films__list-actors {
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.films__title span {
+    text-shadow: none;
+}
+
+.films__list {
+    text-align: center;
+    color: white;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+}
+.films__list-film-title {
+    color: #FFE81F;
+    font-size: 18;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+
+.loader {
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    background:conic-gradient(#0000 10%,#FFE81F);
+    -webkit-mask:radial-gradient(farthest-side,#0000 calc(100% - 8px),#000 0);
+    animation:s3 1s infinite linear;
+  }
+  @keyframes s3 {to{transform: rotate(1turn)}}
